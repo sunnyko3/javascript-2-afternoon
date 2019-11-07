@@ -143,7 +143,7 @@ methodCollection['logHello']= function(){
   Now call your alertHello and logHello methods.
 */
 
-console.log(methodColelctio)
+// console.log(methodColelctio)
 
 ////////// PROBLEM 6 //////////
 
@@ -152,7 +152,19 @@ console.log(methodColelctio)
   Return a new object with all of the information that you passed in.
 */
 
-//Code Here
+function makePerson(name, birthday, ssn){
+
+  return {
+    name,
+    birthday,
+    ssn,
+
+  }
+// console.log(makePerso
+}
+const tom = makePerson(`tom`, Date.now(), 123456879)
+
+console.log(tom)
 
 ////////// PROBLEM 7 //////////
 
@@ -161,4 +173,10 @@ console.log(methodColelctio)
   Return that object so that whenever you invoke makeCard, you get a brand new credit card.
 */
 
-//Code Here
+function makeCard(cardNumber, expirationDate, securityCode){
+  return{
+    cardNumber,
+    expirationDate,
+    securityCode,
+  }
+}
